@@ -20,6 +20,8 @@
       "@molecules": ["./src/components/molecules/index"],
       "@organisms": ["./src/components/organisms/index"],
       "@interfaces/*": ["./src/interfaces/*"],
+      "@store": ["./src/store/index"],
+      "@slices/*": ["./src/store/slices/*"],
       "@styles/*": ["./src/styles/*"]
     }
   },
