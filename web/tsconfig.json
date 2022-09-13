@@ -19,6 +19,7 @@
       "@atoms": ["./src/components/atoms/index"],
       "@molecules": ["./src/components/molecules/index"],
       "@organisms": ["./src/components/organisms/index"],
+      "@interfaces/*": ["./src/interfaces/*"],
       "@styles/*": ["./src/styles/*"]
     }
   },
