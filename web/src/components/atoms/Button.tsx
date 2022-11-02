@@ -11,7 +11,7 @@ const Button = ({ className, ...rest }: ButtonProps) => {
       type="button"
       className={cls(
         className,
-        'rounded-lg px-4 py-2 text-sm font-bold uppercase transition-colors duration-200 ease-in'
+        'rounded-lg px-4 py-2 text-xs font-bold uppercase transition-colors duration-200 ease-in'
       )}
       {...rest}
     />

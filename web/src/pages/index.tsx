@@ -1,6 +1,7 @@
-import { Navbar } from '@molecules';
-import { Dropzone } from '@organisms';
 import type { NextPage } from 'next';
+
+import { CreateLink, Navbar } from '@molecules';
+import { Dropzone } from '@organisms';
 
 const HomePage: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage: NextPage = () => {
             </p>
           </div>
           <Dropzone />
+          <CreateLink />
         </div>
       </div>
     </main>
